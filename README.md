@@ -1,3 +1,5 @@
-# Chốn lành chờ bạn
+# Study Together
 
-Phòng học online: https://taint7684.github.io/study-room/
+https://taint7684.github.io/study-room/
+
+Release cddedcb9fb72b956

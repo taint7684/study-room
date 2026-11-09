@@ -14,3 +14,7 @@ a { color: var(--accent); }
 .meta { color: var(--ink-2); font-size: 14px; }
 .back { font-size: 14px; text-decoration: none; }
 .lang { float: right; font-size: 14px; text-decoration: none; }
+a { overflow-wrap: anywhere; text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 3px; }
+.back, .lang { display: inline-flex; align-items: center; min-height: 44px; }
+@media (max-width: 380px) { .lang { float: none; margin-left: 12px; } h1 { font-size: 27px; } }
